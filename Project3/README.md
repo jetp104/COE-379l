@@ -19,3 +19,5 @@ For the GET route --> /summary:
 
 For the POST route you need to send in a binary message, since I don't have a random one to send in here is an example output from the test script we were given
 ![image](https://github.com/user-attachments/assets/c2c3806f-1ffe-43d4-915a-afffed9439f7)
+
+you can also use <pre> curl -X POST http://localhost:5000/inference -F \path\to\the\image </pre>
