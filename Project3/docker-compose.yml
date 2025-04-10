@@ -1,11 +1,11 @@
-version: '3.8'  # Specify Docker Compose version
+version: '3.8' 
 
 services:
-  api:  # Name of your service
-    image: jetp104/api:1  # Your built image
+  api:  
+    image: jetp104/api:1 
     build:
-      context: .  # Build from current directory
-      dockerfile: Dockerfile  # Use your existing Dockerfile
+      context: .  
+      dockerfile: Dockerfile  
     ports:
-      - "5000:5000"  # Map host port 5000 to container port 5000
+      - "5000:5000"  
     entrypoint: ["python", "api.py"]    
