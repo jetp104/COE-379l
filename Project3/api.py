@@ -11,9 +11,10 @@ model = tf.keras.models.load_model('./models/altlenet5.keras')
 def model_info():
     return {
             "version": "v1",
-            "name": "hurricane",
+            "name": "Alternate-Lenet-5 CNN",
             "description": "Classify images of damaged and undamged property",
-            "number_of_parameters": 13328
+            "accuarcy on test": 0.9723329544067383
+            "test loss": 0.0984039381146431
             }
 
 @app.route('/inference', methods=['POST'])
