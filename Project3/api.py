@@ -13,7 +13,7 @@ def model_info():
             "version": "v1",
             "name": "Alternate-Lenet-5 CNN",
             "description": "Alternate-LeNet-5 is a modified version of the original LeNet-5 CNN that typically replaces or adjusts layers (like using ReLU instead of tanh and max pooling instead of average pooling) to improve performance and compatibility with modern deep learning practices.",
-            "accuarcy on test": 0.9723329544067383
+            "accuarcy on test": 0.9723329544067383,
             "test loss": 0.0984039381146431
             }
 
