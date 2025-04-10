@@ -1,9 +1,10 @@
 # To use the prebuilt Docker image 
 
-1. Make sure you have the entire repo cloned with every location being as its found on this git repo.
+1. Clone the git repo using the following command <pre> git clone https://github.com/jetp104/COE-379l.git</pre> 
 2. Run the command <pre> docker pull jetp104/api:1 </pre> This will get the image from DockerHub that was used for the project
-3. Use the command <pre> docker build -t jetp104/api:1 . </pre> to build the image you pulled (Again make sure its in the same location as the Dockerfile) 
-4. Then run <pre>  docker run -it --rm -p 5000:5000 jetp104/api </pre> and boom your docker image should be up and running.
+3. Get into the folder with the docker file using this command <pre> cd ~/COE-379l/Project3 </pre>
+4. Use the command <pre> docker build -t jetp104/api:1 . </pre> to build the image you pulled (Again make sure its in the same location as the Dockerfile) 
+5. Then run <pre>  docker run -it --rm -p 5000:5000 jetp104/api </pre> and boom your docker image should be up and running.
 
 # To use the docker-compose.yaml file
 1. Make sure you have the entire repo cloned with every location being as its found on this git repo.
